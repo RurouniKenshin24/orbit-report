@@ -14,7 +14,8 @@ export class Satellite {
     }
 
     shouldShowWarning(): boolean{
-        let result: boolean = false; 
+        let result: boolean = false;
+         
         if(this.type === 'Space Debris'){
             result = true;
         }
